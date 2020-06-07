@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_full"
+    android:padding="5pt"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_upper"
+        android:paddingLeft="10pt"
+        android:paddingRight="10pt"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20pt"
+            android:orientation="vertical"
+            android:padding="15pt">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome,"
+                android:textColor="@color/dark"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:textColor="@color/dark"
+                android:layout_height="wrap_content"
+                android:text="Hey There!!"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="20pt">
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20pt"
+                android:background="@drawable/login_upper2"
+                android:ems="10"
+                android:padding="5pt"
+                android:gravity="center"
+                android:hint="Enter email address"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="20pt"
+                android:padding="5pt"
+                android:background="@drawable/login_upper2"
+                android:ems="10"
+                android:hint="Enter password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg_2"
+                android:paddingTop="5pt"
+                android:paddingBottom="5pt"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:textSize="13pt" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="@drawable/button_background"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title of the Note"
+            android:textColor="@color/dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health care, health-care, or healthcare is the maintenance or improvement of health via the prevention, diagnosis, treatment, recovery, or cure of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals in allied health fields."
+            android:textColor="@color/dark_blue"
+            android:textSize="19dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/ivEdit"
+                android:layout_width="50pt"
+                android:layout_height="20pt"
+                android:layout_marginRight="10pt"
+                android:layout_weight="1"
+                android:background="@color/white"
+                app:srcCompat="@drawable/twotone_edit_black_18dp" />
+
+            <ImageButton
+                android:id="@+id/ivDelete"
+                android:layout_width="50pt"
+                android:layout_height="20pt"
+                android:layout_marginRight="5pt"
+                android:layout_weight="1"
+                android:background="@color/white"
+                app:srcCompat="@drawable/twotone_delete_black_18dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
